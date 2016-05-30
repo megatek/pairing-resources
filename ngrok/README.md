@@ -1,3 +1,11 @@
+### Running
+
+##### On Server:
+./ngrokd -tlsKey=server.key -tlsCrt=server.crt -domain="ngrok.megatek.io" -httpAddr=":8080" -httpsAddr=":8081"
+
+##### On Client:
+./ngrok -subdomain testing -config=[YOUR_CONFIG_FILE_NAME] 80
+
 ### Followed instructions from:
 https://www.svenbit.com/2014/09/run-ngrok-on-your-own-server/
 
